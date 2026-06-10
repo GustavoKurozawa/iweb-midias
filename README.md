@@ -5,6 +5,15 @@ Este repositório tem como objetivo comparar de forma prática os impactos de pe
 
 ---
 
+## Demonstração Online (GitHub Pages)
+
+Você pode visualizar as duas versões do projeto rodando diretamente no seu navegador:
+
+* **Versão NÃO Otimizada:** [Clique para acessar](https://gustavokurozawa.github.io/iweb-midias/nao_otimizado/sem_otimizacao.html)
+* **Versão OTIMIZADA (Alta Performance):** [Clique para acessar](https://gustavokurozawa.github.io/iweb-midias/otimizado/com_otimizacao.html)
+
+---
+
 ## Estrutura do Projeto
 
 O projeto está dividido em duas abordagens principais:
