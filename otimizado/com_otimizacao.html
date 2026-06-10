@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratório de Performance - Versão Otimizada</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #eef2f3; }
+        header { background: #0066cc; color: white; padding: 20px; text-align: center; }
+        .midia-container { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        img, video { max-width: 100%; height: auto; display: block; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Landing Page - Versão OTIMIZADA</h1>
+    </header>
+
+    <div class="midia-container">
+        <h2>Banner Promocional (Vídeo Otimizado)</h2>
+        <video autoplay loop muted playsinline preload="metadata">
+            <source src="animacao.webm" type="video/webm">
+            <source src="video.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </div>
+
+    <div class="midia-container">
+        <h2>Foto Principal do Produto (WebP + Lazy Load)</h2>
+        <picture>
+            <source srcset="fundo.webp" type="image/webp">
+            <img src="paisagem.jpg" 
+                 srcset="img/fundo-400.jpg 400w, img/fundo-800.jpg 800w" 
+                 sizes="(max-width: 600px) 400px, 800px" 
+                 width="800" 
+                 height="600" 
+                 alt="Foto do Produto Otimizada" 
+                 loading="lazy">
+        </picture>
+    </div>
+
+    <div class="midia-container">
+        <h2>Nosso Podcast Informativo (Compactado)</h2>
+        <audio controls preload="none">
+            <source src="audio.ogg" type="audio/ogg">
+            <source src="audio.mp3" type="audio/mpeg">
+            Seu navegador não suporta este áudio.
+        </audio>
+    </div>
+
+</body>
+</html>
